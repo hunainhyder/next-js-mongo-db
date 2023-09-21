@@ -1,4 +1,6 @@
 import RemoveBtn from '@/components/RemoveBtn'
+import Link from 'next/link'
+import { HiPencilAlt } from 'react-icons/hi'
 
 export default function QuestionsList() {
     return <>
@@ -14,6 +16,9 @@ export default function QuestionsList() {
             </div>
             <div>
                 <RemoveBtn />
+                <Link href={'/editQuestion'}>
+                    <HiPencilAlt size={24}></HiPencilAlt>
+                </Link>
             </div>
         </div>
     </>
