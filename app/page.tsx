@@ -1,9 +1,9 @@
-import QuestionList from '@/components/QuestionsList'
-dc
+import Question from '@/components/Question'
+
 export default function Home() {
   return (
     <>
-      <QuestionList />
+      <Question />
     </>
   )
 }
